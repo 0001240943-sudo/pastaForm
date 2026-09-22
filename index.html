@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velo Engenharia — Na Direção Certa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="progress-bar" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HEADER
+  ════════════════════════════════════════════════════════════ -->
+  <header id="header">
+    <div class="header-inner">
+
+            <a href="#inicio" class="logo" aria-label="Velo Engenharia — página inicial">
+              <img class="logo-mark" src="velo.png" alt="Velo Engenharia">
+            </a>
+
+      <nav class="nav-desktop" aria-label="Navegação principal">
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#comparativo">Sem × Com Velo</a>
+      
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#orcamento" class="btn-gold">Solicitar Orçamento</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="overlay" id="overlay" aria-hidden="true"></div>
+
+  <nav class="drawer" id="drawer" aria-label="Menu mobile">
+    <button class="drawer-close" id="drawer-close" aria-label="Fechar menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><line x1="3" y1="3" x2="17" y2="17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="17" y1="3" x2="3" y2="17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#quem-somos">Quem Somos</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#diferenciais">Diferenciais</a></li>
+      <li><a href="#comparativo">Sem × Com Velo</a></li>
+      <li><a href="#agenda">Processo</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+  
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="drawer-cta">
+      <a href="#orcamento" class="btn-gold" style="width:100%;justify-content:center">Solicitar Orçamento</a>
+    </div>
+  </nav>
+
+  
+
+  <!-- ═══════════════════════════════════════════════════════
+       MAIN
+  ════════════════════════════════════════════════════════════ -->
+  <main>
+
+    <!-- ── HERO ─────────────────────────────────────────── -->
+    <section id="inicio" class="hero">
+      <div class="hero-bg" id="hero-bg"></div>
+      <div class="hero-veil"></div>
+
+      <div class="hero-body container">
+        
+
+        <div class="hero-content">
+          <div class="hero-accent-line" aria-hidden="true"></div>
+          <h1 class="hero-title" id="hero-title">Sua obra na<br><em>direção certa.</em></h1>
+          <p class="hero-sub" id="hero-sub">Gestão integrada, qualidade premium e total previsibilidade de custos — do diagnóstico à entrega.</p>
+          <a href="#orcamento" class="btn-gold btn-gold--hero">Simular meu Projeto
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="profile-switcher">
+          <span class="label-xs">Quero:</span>
+          <button class="psw active" data-profile="construir">Construir do Zero</button>
+          <button class="psw" data-profile="reformar">Reformar</button>
+          <button class="psw" data-profile="laudo">Laudo Técnico</button>
+        </div>
+
+      
+    </section>
+
+    <!-- ── QUEM SOMOS ────────────────────────────────────── -->
+    <section id="quem-somos" class="section s-light">
+      <div class="container">
+        <div class="section-head">
+          <div class="ghost-num" aria-hidden="true">01</div>
+          <div class="section-meta">
+            <span class="label-tag">Quem Somos</span>
+            <h2 class="section-title">Engenharia com propósito.<br>Entrega com compromisso.</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>A Velo Engenharia tem como objetivo transformar ideias em resultados reais. Com uma abordagem prática e focada em inovação, entregamos soluções sob medida para destacar sua marca no mercado e conectar você ao seu público.</p>
+           
+            <a href="#orcamento" class="btn-outline">Conheça nossa proposta
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M7.5 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <div class="pillars reveal">
+            <div class="pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="2" width="18" height="18" rx="2" stroke="#D4AF37" stroke-width="1.6"/><path d="M7 11h8M11 7v8" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <h3>Gestão Centralizada</h3>
+                <p>Todos os fornecedores, equipes e prazos coordenados pela Velo.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><shield/><path d="M11 3L4 6.5v5c0 3.5 3 6.5 7 7.5 4-1 7-4 7-7.5v-5L11 3z" stroke="#D4AF37" stroke-width="1.6" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <h3>Segurança Técnica</h3>
+                <p>Planejamento de engenharia certificado com conformidade legal em cada fase.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3 17l4-5 4 3 4-8 4 3" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <h3>Previsibilidade de Custos</h3>
+                <p>Orçamento detalhado, controle em tempo real e relatórios transparentes.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="8" stroke="#D4AF37" stroke-width="1.6"/><path d="M11 7v4l3 2" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <h3>Compromisso com Prazos</h3>
+                <p>Cronograma planejado, monitorado diariamente e entregue conforme acordado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVIÇOS ──────────────────────────────────────── -->
+    <section id="servicos" class="section s-dark">
+      <div class="container">
+        <div class="section-head">
+          <div class="ghost-num ghost-num--light" aria-hidden="true">02</div>
+          <div class="section-meta">
+            <span class="label-tag label-tag--gold">Serviços</span>
+            <h2 class="section-title section-title--light">Diagnóstico Rápido</h2>
+          </div>
+        </div>
+
+        <p class="section-sub section-sub--light reveal">Sua necessidade, nossa solução.</p>
+
+
+        <div class="svc-grid">
+          <article class="svc-card reveal" data-category="reforma" data-service="reforma-comercial">
+            <div class="svc-num" aria-hidden="true">01</div>
+            <div class="svc-icon" aria-hidden="true">🏗️</div>
+            <h3>Reforma Comercial</h3>
+            <p>Revitalização de lojas, escritórios e restaurantes com gestão integrada e mínimo impacto operacional.</p>
+            
+          </article>
+          <article class="svc-card reveal" data-category="implantacao" data-service="implantacao">
+            <div class="svc-num" aria-hidden="true">02</div>
+            <div class="svc-icon" aria-hidden="true">🏢</div>
+            <h3>Implantação de Negócios</h3>
+            <p>Do espaço bruto à entrega operacional — projeto, aprovações, execução e acabamento premium.</p>
+           
+          </article>
+          <article class="svc-card reveal" data-category="laudo" data-service="laudo">
+            <div class="svc-num" aria-hidden="true">03</div>
+            <div class="svc-icon" aria-hidden="true">📋</div>
+            <h3>Laudo Técnico</h3>
+            <p>Diagnóstico especializado de patologias, infiltrações e adequações normativas com relatório fotográfico.</p>
+            
+          </article>
+          <article class="svc-card reveal" data-category="manutencao" data-service="manutencao">
+            <div class="svc-num" aria-hidden="true">04</div>
+            <div class="svc-icon" aria-hidden="true">🔧</div>
+            <h3>Manutenção Preventiva</h3>
+            <p>Planos periódicos para preservar o padrão das instalações e evitar custos emergenciais.</p>
+            
+          </article>
+          <article class="svc-card reveal" data-category="reforma" data-service="fachada">
+            <div class="svc-num" aria-hidden="true">05</div>
+            <div class="svc-icon" aria-hidden="true">⚒️</div>
+            <h3>Revitalização de Fachada</h3>
+            <p>Renovação visual externa que reforça a identidade da marca com acabamento premium.</p>
+            
+          </article>
+          <article class="svc-card reveal" data-category="implantacao" data-service="aprovacao">
+            <div class="svc-num" aria-hidden="true">06</div>
+            <div class="svc-icon" aria-hidden="true">✅</div>
+            <h3>Aprovação de Projetos</h3>
+            <p>Gestão do processo burocrático junto à Prefeitura, Bombeiros e Vigilância Sanitária.</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── DIFERENCIAIS ──────────────────────────────────── -->
+    <section id="diferenciais" class="section s-light">
+      <div class="container">
+        <div class="section-head">
+          <div class="ghost-num" aria-hidden="true">03</div>
+          <div class="section-meta">
+            <span class="label-tag">Diferenciais</span>
+            <h2 class="section-title">Os diferenciais<br>da empresa</h2>
+          </div>
+        </div>
+
+        <div class="dif-grid">
+          <div class="dif-card reveal">
+            <div class="dif-line" aria-hidden="true"></div>
+            <span class="dif-ico" aria-hidden="true">🎯</span>
+            <h3>Entrega Ponta a Ponta</h3>
+            <p>Do diagnóstico à garantia pós-obra. Uma jornada completa sem lacunas ou terceiros não coordenados.</p>
+          </div>
+          <div class="dif-card reveal">
+            <div class="dif-line" aria-hidden="true"></div>
+            <span class="dif-ico" aria-hidden="true">💵</span>
+            <h3>Gestão de Custos</h3>
+            <p>Orçamento parametrizado, controle em tempo real e relatórios financeiros transparentes.</p>
+          </div>
+          <div class="dif-card reveal">
+            <div class="dif-line" aria-hidden="true"></div>
+            <span class="dif-ico" aria-hidden="true">💬</span>
+            <h3>Comunicação Transparente</h3>
+            <p>Atualizações regulares, dashboards de progresso e acesso direto ao gestor responsável.</p>
+          </div>
+          <div class="dif-card reveal">
+            <div class="dif-line" aria-hidden="true"></div>
+            <span class="dif-ico" aria-hidden="true">🧠</span>
+            <h3>Tomada de Decisão</h3>
+            <p>Assessoria técnica especializada para que você decida com informação e segurança real.</p>
+          </div>
+          <div class="dif-card reveal">
+            <div class="dif-line" aria-hidden="true"></div>
+            <span class="dif-ico" aria-hidden="true">👷</span>
+            <h3>Equipes Sob Medida</h3>
+            <p>Profissionais selecionados para cada tipo de obra — sem sobrecarga, sem lacunas de competência.</p>
+          </div>
+          <div class="dif-card reveal">
+            <div class="dif-line" aria-hidden="true"></div>
+            <span class="dif-ico" aria-hidden="true">🏆</span>
+            <h3>Qualidade Assegurada</h3>
+            <p>Padrão técnico rigoroso com inspeções sistemáticas em cada fase da execução.</p>
+          </div>
+          <div class="dif-card reveal">
+            <div class="dif-line" aria-hidden="true"></div>
+            <span class="dif-ico" aria-hidden="true">🔒</span>
+            <h3>Acompanhamento de Garantia</h3>
+            <p>Suporte pós-entrega com vistorias programadas e atendimento ágil a ocorrências.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── COMPARATIVO ───────────────────────────────────── -->
+    <section id="comparativo" class="section s-blue">
+      <div class="container">
+        <div class="section-head">
+          <div class="ghost-num ghost-num--mid" aria-hidden="true">04</div>
+          <div class="section-meta">
+            <span class="label-tag label-tag--gold">Por que nos escolher</span>
+            <h2 class="section-title section-title--light">Sem Velo × Com Velo</h2>
+          </div>
+        </div>
+
+        <div class="comp-table reveal">
+          <div class="comp-header">
+            <div class="ch-sem">❌ Sem Velo</div>
+            <div class="ch-aspect"> </div>
+            <div class="ch-com">✅ Com Velo</div>
+          </div>
+          <div class="comp-row"><div class="cr-sem">Atenção dividida entre fornecedores, orçamentos e prazos, sobrecarregando o cliente.</div><div class="cr-aspect">Gestão</div><div class="cr-com">Coordenação integral de ponta a ponta (do Diagnóstico à Entrega).</div></div>
+          <div class="comp-row"><div class="cr-sem">Escopos incompletos, retrabalhos e aditivos tardios que encarecem a obra.</div><div class="cr-aspect">Custos</div><div class="cr-com">Controle financeiro em tempo real e previsibilidade orçamentária precisa.</div></div>
+          <div class="comp-row"><div class="cr-sem">Sem planejamento integrado, imprevistos e dependências comprometem a data de abertura.</div><div class="cr-aspect">Prazo</div><div class="cr-com">Cronograma rigorosamente monitorado e garantido (com total conformidade legal ABNT/CREA).</div></div>
+          <div class="comp-row"><div class="cr-sem">Decisões técnicas complexas assumidas pelo cliente, tirando o foco do faturamento do seu negócio.</div><div class="cr-aspect">Decisões</div><div class="cr-com">Assessoria especializada e suporte à tomada de decisão para foco total no seu negócio.</div></div>
+          <div class="comp-row"><div class="cr-sem">Execução sem padrão técnico que ameaça o acabamento e a identidade da marca.</div><div class="cr-aspect">Qualidade</div><div class="cr-com">Execução planejada com equipes sob medida e inspeção contínua de qualidade.</div></div>
+          <div class="comp-row"><div class="cr-sem">Falta de acompanhamento após o término da reforma.</div><div class="cr-aspect">Garantia</div><div class="cr-com">Vistorias programadas e acompanhamento integral pós-obra para proteger o seu investimento.</div></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── PROJETOS ──────────────────────────────────────── -->
+    <section id="projetos" class="section s-gray">
+      <div class="container">
+        <div class="section-head">
+          <div class="ghost-num" aria-hidden="true">06</div>
+          <div class="section-meta">
+            <span class="label-tag">Portfólio</span>
+            <h2 class="section-title">Projetos Realizados</h2>
+          </div>
+        </div>
+        <!-- ★ AJUSTE: slider antes/depois trocado por galeria de projetos com foto + nome de cada obra -->
+        <div class="proj-grid">
+          <article class="proj-card reveal">
+            <div class="proj-img">
+              <img src="https://images.unsplash.com/photo-1758025554726-50b7ed346394?w=900&h=700&fit=crop&auto=format&q=80" alt="Loja conceito reformada pela Velo Engenharia" loading="lazy" />
+            </div>
+            <div class="proj-info">
+              <h3>Loja Conceito · Del Rey Shopping</h3>
+              <span class="proj-tag">Reforma Comercial</span>
+            </div>
+          </article>
+          <article class="proj-card reveal">
+            <div class="proj-img">
+              <img src="https://images.unsplash.com/photo-1745368036244-eda2fcbb9d45?w=900&h=700&fit=crop&auto=format&q=80" alt="Restaurante implantado pela Velo Engenharia" loading="lazy" />
+            </div>
+            <div class="proj-info">
+              <h3>Restaurante Rota 383</h3>
+              <span class="proj-tag">Implantação de Negócio</span>
+            </div>
+          </article>
+          <article class="proj-card reveal">
+            <div class="proj-img">
+              <img src="https://images.unsplash.com/photo-1758448500688-3ababa93fd67?w=900&h=700&fit=crop&auto=format&q=80" alt="Recepção corporativa entregue pela Velo Engenharia" loading="lazy" />
+            </div>
+            <div class="proj-info">
+              <h3>Clínica Vitta · Recepção</h3>
+              <span class="proj-tag">Implantação de Negócio</span>
+            </div>
+          </article>
+          <article class="proj-card reveal">
+            <div class="proj-img">
+              <img src="https://images.unsplash.com/photo-1758957646695-ec8bce3df462?w=900&h=700&fit=crop&auto=format&q=80" alt="Studio de fitness reformado pela Velo Engenharia" loading="lazy" />
+            </div>
+            <div class="proj-info">
+              <h3>Studio Fit Performance</h3>
+              <span class="proj-tag">Reforma Comercial</span>
+            </div>
+          </article>
+          <article class="proj-card reveal">
+            <div class="proj-img">
+              <img src="https://images.unsplash.com/photo-1755254533551-032b6e83a309?w=900&h=700&fit=crop&auto=format&q=80" alt="Fachada comercial revitalizada pela Velo Engenharia" loading="lazy" />
+            </div>
+            <div class="proj-info">
+              <h3>Edifício Comercial · Centro</h3>
+              <span class="proj-tag">Revitalização de Fachada</span>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── CONTATO ───────────────────────────────────────── -->
+    <section id="contato" class="section s-dark">
+      <div class="container">
+        <div class="section-head">
+          <div class="ghost-num ghost-num--light" aria-hidden="true">07</div>
+          <div class="section-meta">
+            <span class="label-tag label-tag--gold">Contato</span>
+            <h2 class="section-title section-title--light">Fale com a Velo</h2>
+          </div>
+        </div>
+
+        <div class="contact-layout reveal">
+          <div class="contact-info">
+            <dl class="contact-list">
+              <div class="cinfo">
+                <dt><span class="cico" aria-hidden="true">📍</span>Endereço</dt>
+                <dd>São João del Rei, MG — Brasil</dd>
+              </div>
+              <div class="cinfo">
+                <dt><span class="cico" aria-hidden="true">📱</span>WhatsApp</dt>
+                <dd><a href="https://wa.me/5531999999999" target="_blank" rel="noopener">(31) 9 9999-9999</a></dd>
+              </div>
+              <div class="cinfo">
+                <dt><span class="cico" aria-hidden="true">📧</span>E-mail</dt>
+                <dd><a href="mailto:contato@veloengenharia.com.br">contato@veloengenharia.com.br</a></dd>
+              </div>
+              <div class="cinfo">
+                <dt><span class="cico" aria-hidden="true">🕐</span>Horário</dt>
+                <dd>Segunda a Sexta — 08h às 18h</dd>
+              </div>
+            </dl>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="fg">
+              <label for="cn">Nome</label>
+              <input type="text" id="cn" name="name" placeholder="Seu nome completo" required />
+            </div>
+            <div class="fg">
+              <label for="ce">E-mail</label>
+              <input type="email" id="ce" name="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="fg">
+              <label for="cm">Mensagem</label>
+              <textarea id="cm" name="msg" rows="4" placeholder="Como podemos ajudar?" required></textarea>
+            </div>
+            <button type="submit" class="btn-gold">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ORÇAMENTO ─────────────────────────────────────── -->
+    <!-- ★ AJUSTE: seção reconstruída como o diferencial central do site — card elevado + estimativa ao vivo -->
+    <section id="orcamento" class="section s-orcamento">
+      <div class="container">
+        <div class="section-head">
+          <div class="ghost-num" aria-hidden="true">08</div>
+          <div class="section-meta">
+            <span class="label-tag label-tag--gold">Orçamento Inteligente</span>
+            <h2 class="section-title">Veja o investimento<br>enquanto você responde</h2>
+          </div>
+        </div>
+        <p class="section-sub reveal">Nada de esperar dias por um retorno: sua estimativa aparece na tela conforme você avança. Ao final, enviamos tudo pronto para o seu WhatsApp.</p>
+
+        <div class="orc-shell reveal">
+
+          <!-- Coluna de confiança: por que simular com a Velo -->
+          <aside class="orc-side">
+            <span class="orc-side-eyebrow">Por que simular com a Velo</span>
+            <ul class="orc-trust">
+              <li>
+                <span class="ot-ico" aria-hidden="true">🧮</span>
+                <div><strong>Estimativa ao vivo</strong><p>O valor se atualiza a cada resposta, antes mesmo de você terminar.</p></div>
+              </li>
+              <li>
+                <span class="ot-ico" aria-hidden="true">🔒</span>
+                <div><strong>Sem compromisso</strong><p>Simulação gratuita — você decide se avança depois de ver o número.</p></div>
+              </li>
+              <li>
+                <span class="ot-ico" aria-hidden="true">💬</span>
+                <div><strong>Direto no WhatsApp</strong><p>Sem formulário perdido em e-mail: sua simulação cai direto na conversa.</p></div>
+              </li>
+              <li>
+                <span class="ot-ico" aria-hidden="true">📐</span>
+                <div><strong>Base técnica real</strong><p>Faixas de valor calculadas a partir de obras semelhantes já entregues.</p></div>
+              </li>
+            </ul>
+          </aside>
+
+          <!-- Card principal: wizard + estimativa -->
+          <div class="orc-card">
+            <div class="orc-card-glow" aria-hidden="true"></div>
+
+            <!-- ★ AJUSTE: painel de estimativa em tempo real — o diferencial pedido pelo cliente -->
+            <div class="orc-estimate" id="orc-estimate" aria-live="polite">
+              <span class="oe-label">Sua estimativa em tempo real</span>
+              <strong class="oe-value" id="oe-value">Escolha o tipo de obra para começar</strong>
+              <span class="oe-note" id="oe-note">Valor referencial, sujeito a vistoria técnica.</span>
+            </div>
+
+            <div class="wiz-steps" id="wiz-steps">
+              <div class="wstep active" data-s="1"><span>1</span><em>Tipo de Obra</em></div>
+              <div class="wline"></div>
+              <div class="wstep" data-s="2"><span>2</span><em>Metragem</em></div>
+              <div class="wline"></div>
+              <div class="wstep" data-s="3"><span>3</span><em>Prazo</em></div>
+            </div>
+
+            <div class="wpanel" id="wp1">
+              <h3>Qual o tipo de obra?</h3>
+              <div class="wopts">
+                <label class="wopt"><input type="radio" name="tipo" value="Reforma Comercial"><span>🏗️ Reforma Comercial</span></label>
+                <label class="wopt"><input type="radio" name="tipo" value="Implantação de Negócio"><span>🏢 Implantação de Negócio</span></label>
+                <label class="wopt"><input type="radio" name="tipo" value="Revitalização de Fachada"><span>🎨 Revitalização de Fachada</span></label>
+                <label class="wopt"><input type="radio" name="tipo" value="Laudo Técnico"><span>📋 Laudo Técnico</span></label>
+              </div>
+              <button class="btn-gold" id="wn1">Próximo →</button>
+            </div>
+
+            <div class="wpanel hidden" id="wp2">
+              <h3>Qual a metragem aproximada?</h3>
+              <div class="wopts">
+                <label class="wopt"><input type="radio" name="metro" value="Até 100 m²"><span>📐 Até 100 m²</span></label>
+                <label class="wopt"><input type="radio" name="metro" value="100 a 300 m²"><span>📐 100 a 300 m²</span></label>
+                <label class="wopt"><input type="radio" name="metro" value="300 a 600 m²"><span>📐 300 a 600 m²</span></label>
+                <label class="wopt"><input type="radio" name="metro" value="Acima de 600 m²"><span>📐 Acima de 600 m²</span></label>
+              </div>
+              <div class="wnav"><button class="btn-outline" id="wb2">← Voltar</button><button class="btn-gold" id="wn2">Próximo →</button></div>
+            </div>
+
+            <div class="wpanel hidden" id="wp3">
+              <h3>Qual o prazo desejado?</h3>
+              <div class="wopts">
+                <label class="wopt"><input type="radio" name="prazo" value="Urgente (até 30 dias)"><span>⚡ Urgente (até 30 dias)</span></label>
+                <label class="wopt"><input type="radio" name="prazo" value="Curto (1 a 3 meses)"><span>📅 Curto (1 a 3 meses)</span></label>
+                <label class="wopt"><input type="radio" name="prazo" value="Médio (3 a 6 meses)"><span>📅 Médio (3 a 6 meses)</span></label>
+                <label class="wopt"><input type="radio" name="prazo" value="Flexível"><span>🗓️ Flexível</span></label>
+              </div>
+              <div class="fg" style="margin-top:1.5rem">
+                <label for="wname">Seu nome</label>
+                <input type="text" id="wname" placeholder="Como podemos te chamar?" />
+              </div>
+              <div class="wnav"><button class="btn-outline" id="wb3">← Voltar</button><button class="btn-gold" id="wsend">📲 Enviar via WhatsApp</button></div>
+            </div>
+
+            <div class="wpanel hidden" id="wp-ok">
+              <div class="wiz-success">
+                <div class="ws-icon">🎉</div>
+                <h3>Tudo certo!</h3>
+                <p>Sua simulação foi enviada. Em breve nossa equipe entrará em contato com a proposta personalizada.</p>
+                <button class="btn-gold" id="wrestart">Nova simulação</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer id="footer">
+    <div class="footer-top container">
+      <div class="footer-brand">
+        <img id="logo-footer" src="velofooter.png" alt="Logo-Velo">
+        <p>Gestão integrada de obras comerciais com qualidade premium, prazo controlado e previsibilidade de custos.</p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-action">
+        <h4>Pronto para começar?</h4>
+        <p>Solicite um orçamento sem compromisso e coloque sua obra na direção certa.</p>
+        <a href="#orcamento" class="btn-gold">Solicitar Orçamento</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Velo Engenharia · Todos os direitos reservados</p>
+      <p>Desenvolvido por Estevão Oliveira, Isabella Resende, Júlia Marangoni; Silvana Cangussu</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<a href="https://wa.me/5531999999999" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Fale conosco no WhatsApp">
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@develop/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon" />
+</a>
+</html>
